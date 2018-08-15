@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
   s.authors      = 'Netease IM Team' 
   s.source       = { :http => 'http://yx-web.nosdn.127.net/package%2FLiveStreaming_iOS_SDK_V3.1.1.zip'}
   s.platform     = :ios, '8.0'
- # s.ios.vendored_frameworks = '**/MINISDK/NMCLiveStreaming.framework'
-  s.ios.vendored_frameworks = '**/MINI SDK/libs/NMCLiveStreaming_MINI.framework'
+  s.ios.vendored_frameworks = '**/MINISDK/NMCLiveStreaming.framework'
+ # s.ios.vendored_frameworks = '**/MINI SDK/libs/NMCLiveStreaming_MINI.framework'
 end
