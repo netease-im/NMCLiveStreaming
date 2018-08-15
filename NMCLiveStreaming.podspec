@@ -9,6 +9,4 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.resources    = '**/NormalSDK/NMCVideoFilter.bundle' 
   s.ios.vendored_frameworks = '**/NormalSDK/NMCLiveStreaming.framework'
- # s.resources    = '**/Normal SDK/libs/NMCVideoFilter.bundle' 
- # s.ios.vendored_frameworks = '**/Normal SDK/libs/NMCLiveStreaming.framework'
 end
