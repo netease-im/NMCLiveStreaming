@@ -8,5 +8,5 @@ Pod::Spec.new do |s|
   s.source       = { :http => 'http://yx-web.nos.netease.com/package/1570787215/LiveStreaming_iOS_SDK_V3.2.0.zip'}
   s.platform     = :ios, '8.0'
   s.resources    = 'NormalSDK/NMCVideoFilter.bundle' 
-  s.ios.vendored_frameworks = 'NormalSDK/NMCLiveStreaming.framework,NormalSDK/NMCBasicModuleFramework.framework'
+  s.ios.vendored_frameworks = 'NormalSDK/*.framework'
 end
