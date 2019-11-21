@@ -23,7 +23,9 @@ typedef NS_ENUM(NSUInteger, LSVideoParamQuality) {
     //!< 视频分辨率：超清 960*540 帧率：20 码率：800Kbps
     LSVideoParamQuality_Super,
     //!< 视频分辨率：超高清 (1280*720) 帧率：15 码率：1200Kbps
-    LSVideoParamQuality_Super_High
+    LSVideoParamQuality_Super_High,
+    //!< 视频分辨率：超超高清 (1920*1080) 帧率：15 码率：2000Kbps
+    LSVideoParamQuality_Super_Super_High
 };
 
 @interface LSVideoParaCtxConfiguration : NSObject

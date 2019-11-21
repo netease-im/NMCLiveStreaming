@@ -44,6 +44,7 @@ typedef enum LSVideoStreamingQuality{
     LS_VIDEO_QUALITY_HIGH,          //!< 视频分辨率：高清 640*480.
     LS_VIDEO_QUALITY_SUPER,         //!< 视频分辨率：超清 960*540.
     LS_VIDEO_QUALITY_SUPER_HIGH,    //!< 视频分辨率：超高清 (1280*720).
+    LS_VIDEO_QUALITY_SUPER_SUPER_HIGH,  //!< 视频分辨率：超超高清 (1920*1080).
 }LSVideoStreamingQuality;
 
 //摄像头类型

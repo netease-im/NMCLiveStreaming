@@ -276,6 +276,7 @@ typedef void(^LSUploadLogFileBlock)(BOOL hasSucceed);
 /**
  *  设置混音强度
  *  @param value 混音强度范围【1-10】
+ *  默认为10，已经最大
  */
 - (void)setMixIntensity:(int)value;
 
